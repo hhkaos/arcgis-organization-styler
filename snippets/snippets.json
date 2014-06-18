@@ -2,16 +2,16 @@
 	"snippets":[
 		{
 			"name": "Remove footer",
-			"css": "rauljimenez.info/dev/chrome-ext/remove_footer.css",
-			"html": "rauljimenez.info/dev/chrome-ext/remove_footer.html"
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/remove_footer.css",
+			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/remove_footer.html"
 		},
 		{
 			"name": "Set background image",
-			"css": "rauljimenez.info/dev/chrome-ext/background_image.css"
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/background_image.css"
 		},
 		{
 			"name": "Set background to navbar",
-			"css": "rauljimenez.info/dev/chrome-ext/menu_bar.css"
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/menu_bar.css"
 		}
 	]
 }
