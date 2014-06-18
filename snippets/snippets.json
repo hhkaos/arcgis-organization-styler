@@ -1,0 +1,17 @@
+{
+	"snippets":[
+		{
+			"name": "Remove footer",
+			"css": "rauljimenez.info/dev/chrome-ext/remove_footer.css",
+			"html": "rauljimenez.info/dev/chrome-ext/remove_footer.html"
+		},
+		{
+			"name": "Set background image",
+			"css": "rauljimenez.info/dev/chrome-ext/background_image.css"
+		},
+		{
+			"name": "Set background to navbar",
+			"css": "rauljimenez.info/dev/chrome-ext/menu_bar.css"
+		}
+	]
+}
