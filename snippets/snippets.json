@@ -14,7 +14,23 @@
 		},
 		{
 			"name": "Add a live map",
-			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/livemap.html"
+			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/livemap.html",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/livemap.css"
+
+		},
+		{
+			"name": "Styling description text",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/styling_description.css"
+		},
+		{
+			"name": "Style map names",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/style_map_names.css"
+		},
+		{
+			"name": "Change font family",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/change_font_family.css",
+			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/change_font_family.html"
 		}
+		
 	]
 }

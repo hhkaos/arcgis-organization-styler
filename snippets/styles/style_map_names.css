@@ -1,0 +1,11 @@
+/* Style map names */
+.galleryNode .galleryLabelContainer {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #000;
+	padding-top: 5px;
+	height: 19px;
+	text-transform: uppercase;
+	font-weight: 200;
+	padding-right: 11px;
+	border-radius: 8px;
+}
