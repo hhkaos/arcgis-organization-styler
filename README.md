@@ -1,7 +1,7 @@
 # How to install
 You can install from the [Google Chrome Store page](https://chrome.google.com/webstore/detail/arcgis-organization-style/odoallpdfopkgfnofcdecpllplpfahea/related?hl=en&gl=ES).
 
-<img src="https://raw.githubusercontent.com/hhkaos/arcgis-video-tour/master/images/screenshot_desktop.png" style="width:100%" alt="Extension screenshot">
+<img src="https://raw.githubusercontent.com/hhkaos/arcgis-organization-styler/gh-pages/resources/Screenshot.png" style="width:100%" alt="Extension screenshot">
 
 # About this extension
 This is a Google Chrome Extension that **aims to help users to style their Organizations page**.
@@ -22,7 +22,7 @@ _pending video_
 # Contributions
 If you wish you can contribute to this repo in order to help us to include more snippets (or improve the extension itself). 
 
-If you want to learn how easy is to develop you own snippets just read this guide: [How to build snippets](https://github.com/hhkaos/arcgis-organization-styler/).
+If you want to learn how easy is to develop you own snippets just read this guide: [How to build snippets](https://github.com/hhkaos/arcgis-organization-styler/tree/master/snippets).
 
 Please follow these normal Github flow:
 
