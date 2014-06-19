@@ -78,7 +78,7 @@ $(document).ready(function(){
 	//Displays the code
 	$("#getCode").click(function(){
 		var tmp = "<style type='text/css'>\n";
-		tmp += '$("#css-style").val()';
+		tmp += $("#css-style").val();
 		tmp += "\n</style>\n";
 		tmp += $("#html-content").val();
 		$("#basic-modal-content textarea").val(tmp);
