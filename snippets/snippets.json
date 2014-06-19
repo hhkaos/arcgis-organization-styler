@@ -2,7 +2,7 @@
 	"snippets":[
 		{
 			"name": "Remove footer",
-			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/remove_footer.css",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/remove_footer.css"
 		},
 		{
 			"name": "Set background image",
