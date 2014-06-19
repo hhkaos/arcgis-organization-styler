@@ -1,0 +1,57 @@
+#close{
+	background-color: #FFF;
+	padding: 5px;
+	margin-left: -56px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#styler{
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border: 0;
+	width: 300px;
+	background-color: #FFF;
+	padding: 10px;
+	background-image: url("../extension/congruent_outline.png");
+}
+#styler textarea{
+	width: 100%;
+	height: 500px;
+}
+#styler.closed{
+	right: -320px;
+}
+#selector{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	height: 25px;
+}
+#selector li:hover{
+	background-color: #efefef;
+}
+#selector li{
+	width: 47.6%;
+	display: block;
+	float: left;
+	border-right: 1px solid #CCC;
+	cursor: pointer;
+	padding: 3px;
+	text-align: center;
+
+}
+#selector li.active{
+	background-color: #efefef;
+	font-weight: bold;
+	
+}
+#selector li:last-child{
+	border: 0;
+}

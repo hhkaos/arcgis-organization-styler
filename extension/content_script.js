@@ -22,11 +22,11 @@ if(!document.getElementById("style")){
 		"	<textarea id='css-style'></textarea><textarea style='display:none' id='html-content'></textarea><br>"+
 		"	<input type='submit' value='Apply styles'>"+
 		"</form>");
-	$("body").append("<link id='style' type='text/css' rel='stylesheet' href='http://localhost:9090/style.css'>")
+	$("body").append("<link id='style' type='text/css' rel='stylesheet' href='http://hhkaos.github.io/arcgis-organization-styler/resources/styles.css'>")
 	$("body").append("<style id='custom-style' type='text/css'></style>")
 	$("body").append("<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>")
 	var loadBehaviour = function(){
-		$("body").append("<script src='http://localhost:9090/scripts.js'></script>");
+		$("body").append("<script src='http://hhkaos.github.io/arcgis-organization-styler/resources/scripts.js'></script>");
 	};
 
 	setTimeout(loadBehaviour, 2000);
