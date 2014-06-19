@@ -13,6 +13,7 @@
 			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/menu_bar.css"
 		},
 		{
+			"name": "Add a live map",
 			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/livemap.html"
 		}
 	]
