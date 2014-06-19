@@ -1,3 +1,4 @@
+/* Add background to the menu bar */
 #page-border > div.clearfix{
 	background-color: black;
 }

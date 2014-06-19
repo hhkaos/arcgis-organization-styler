@@ -1,3 +1,4 @@
+/* This removes the footer */
 div.footer{
 	display:none;
 }

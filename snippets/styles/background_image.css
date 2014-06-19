@@ -1,6 +1,8 @@
+/* This one adds a background image */
 html,body,#page-border{
 	height: 100% !important;
 }
 #page-border{
-	background-image: url("http://hhkaos.maps.arcgis.com/sharing/rest/portals/self/resources/banner.jpg?token=ivuj326qLIJvDx01WbgR8AohTQIGmprmw9w68k9n4b9pahRWTp6pFrvwFU4l2x4TvBSSdSEokPY15hWoGI5RDZqIMYZmTF6p2eSwJGaLx4SzNhtf_cxAIeRtXua102h3gEfhYiSdbrrfaoSYf15feJXX1mjYIhQ4trzq7760-KTN4rzpKbZfjyALT4O_vwcM");
+	background-image: url("http://3.bp.blogspot.com/-UJbmzWz8A34/TgrgOCrv4AI/AAAAAAAAFLw/QqF92ahq-1w/s1600/amazing%2Bbackground%2Bwallpapers-6.jpg");
+	background-size: cover;
 }

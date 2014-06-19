@@ -3,7 +3,6 @@
 		{
 			"name": "Remove footer",
 			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/remove_footer.css",
-			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/remove_footer.html"
 		},
 		{
 			"name": "Set background image",
@@ -12,6 +11,9 @@
 		{
 			"name": "Set background to navbar",
 			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/menu_bar.css"
+		},
+		{
+			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/livemap.html"
 		}
 	]
 }
