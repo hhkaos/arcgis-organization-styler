@@ -2,35 +2,41 @@
 <!doctype html>
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>ArcGIS Organization Styler</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <style>
       body {
-        min-width: 357px;
+        min-width: 400px;
         overflow-x: hidden;
+        font-family: 'Open Sans', sans-serif;
+        font-size:13px;
+      }
+      a,a:hover,a:visited{
+        color: blue;
+        text-decoration: none;
       }
 
-      img {
-        margin: 5px;
-        border: 2px solid black;
-        vertical-align: middle;
-        width: 75px;
-        height: 75px;
+      #author {
+        float: left;
+        margin: 0 10px 10px 0;
+      }
+      .centered{
+        text-align: center;
+      }
+      .centered > p{
+        padding-top: 5px;
       }
     </style>
-
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
-     -->
-
     <script src="jquery-1.11.1.min.js"></script>
     <script src="myscript.js"></script>
+    
   </head>
   <body>
-    Gracias por descargar el plugin
-    
+  <img id="author" src="hhkaos.jpeg">
+    <div class="centered">
+      <p><a href="https://github.com/Esri/ago-admin-wiki" target="_blank">More tips here</a></p>
+      <p><strong>Developer by:</strong> <a href="http://www.twitter.com/hhkaos" target="_blank">@hhkaos</a> | <a href="http://www.rauljimenez.info" target="_blank">Personal site</a> | <a href="http://linkedin.com/in/jimenezortegaraul" target="_blank">Linkedin</a></p>
+    </div>
   </body>
 </html>
 

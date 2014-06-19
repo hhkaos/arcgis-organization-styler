@@ -1,0 +1,102 @@
+$(document).ready(function(){
+		var proxy = "http://www.corsproxy.com/";
+		var snippets = [];
+		//Apply the current styples
+		$("#styler").submit(function(e){
+			e.preventDefault();
+			$("#custom-style").html($("#css-style").val());
+			
+			if($("#custom-html").length == 0){
+				$("#banner-html").prepend("<div id='custom-html'></div>");
+			}
+			$("#custom-html").html($("#html-content").val());
+			
+		});
+
+		//Loads all the available snippets
+		$.ajax({
+			url: proxy + "hhkaos.github.io/arcgis-organization-styler/snippets/snippets.json",
+			dataType: "json",
+			success: function(data){
+				snippets = data.snippets;
+				var elems = data.snippets.length;
+				for(i = 0; i < elems; i++){
+					$("#snippets").append("<option value='"+ i +"'>" + data.snippets[i].name + "</option>");
+				}
+				console.log("data=",data);
+			}
+		});
+
+		//Add the snippet to the textarea
+		$("#add-snippet").click(function(){
+			var obj = snippets[$("#snippets").val()];
+
+			if(obj.hasOwnProperty("css")){
+				//Get the CSS
+				$.ajax({
+					url: proxy + obj.css,
+					//dataType: "json",
+					success: function(data){
+						
+						$("#css-style").val($("#css-style").val()+"\n"+data);
+					}
+				});
+			}
+			if(obj.hasOwnProperty("html")){
+				//Get the HTML
+				$.ajax({
+					url: proxy + obj.html,
+					//dataType: "json",
+					success: function(data){
+						
+						$("#html-content").val($("#html-content").val()+"\n"+data);
+					}
+				});
+			}
+
+
+		});
+
+		//Switch the textarea active
+		$("#selector li").click(function(){
+			var newActive = $(this).attr("id");
+			$("#selector .active").removeClass("active");
+			$(this).addClass("active");
+			if(newActive == "css"){
+				$("#html-content").hide();
+				$("#css-style").show();
+
+			}else if(newActive == "html"){
+				$("#html-content").show();
+				$("#css-style").hide();
+			}
+		});
+	});
+
+$(document).delegate('#styler textarea', 'keydown', function(e) {
+  var keyCode = e.keyCode || e.which;
+
+  if (keyCode == 9) {
+    e.preventDefault();
+    var start = $(this).get(0).selectionStart;
+    var end = $(this).get(0).selectionEnd;
+
+    // set textarea value to: text before caret + tab + text after caret
+    $(this).val($(this).val().substring(0, start)
+                + "\t"
+                + $(this).val().substring(end));
+
+    // put caret at right position again
+    $(this).get(0).selectionStart =
+    $(this).get(0).selectionEnd = start + 1;
+  }
+
+});
+
+$("#close").click(function(){
+	if($("#styler").hasClass("closed")){
+		$("#styler").removeClass("closed");	
+	}else{
+		$("#styler").addClass("closed")
+	}
+});
