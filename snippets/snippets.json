@@ -30,6 +30,11 @@
 			"name": "Change font family",
 			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/change_font_family.css",
 			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/change_font_family.html"
+		},
+		{
+			"name": "Youtube video",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/youtube.css",
+			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/youtube.html"
 		}
 		
 	]

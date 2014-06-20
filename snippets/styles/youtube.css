@@ -1,0 +1,8 @@
+/* Custom styles for Youtube video */
+#youtube{
+	width: 100%;
+
+}
+#youtube iframe{
+	margin: 0 auto;
+}
