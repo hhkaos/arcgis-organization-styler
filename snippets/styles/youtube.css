@@ -1,8 +1,19 @@
 /* Custom styles for Youtube video */
-#youtube{
+#youtube,
+#imgRotator,
+#banner-html{
 	width: 100%;
+	text-align:center;
 
 }
 #youtube iframe{
-	margin: 0 auto;
+	margin: 20px auto 0;
+	display: inline-block;
+}
+#homeRotate,
+#imgRotator{
+	min-height: 350px;
+}
+#matrixLayout{
+	box-shadow: none;
 }
