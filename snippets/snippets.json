@@ -35,6 +35,10 @@
 			"name": "Youtube video",
 			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/youtube.css",
 			"html": "hhkaos.github.io/arcgis-organization-styler/snippets/html/youtube.html"
+		},
+		{
+			"name": "Description background",
+			"css": "hhkaos.github.io/arcgis-organization-styler/snippets/styles/description_background.css",
 		}
 		
 	]
