@@ -1,7 +1,7 @@
 # How to install
 You can install it from the [Google Chrome Store page](https://chrome.google.com/webstore/detail/arcgis-organization-style/odoallpdfopkgfnofcdecpllplpfahea/related?hl=en&gl=ES).
 
-<img src="https://raw.githubusercontent.com/hhkaos/arcgis-organization-styler/gh-pages/resources/Screenshot.png" style="width:100%" alt="Extension screenshot">
+<img src="https://raw.githubusercontent.com/hhkaos/arcgis-organization-styler/master/resources/Screenshot.png" style="width:100%" alt="Extension screenshot">
 
 # About this extension
 This is a Google Chrome Extension that **aims to help users to style their Organizations page** on [ArcGIS Online](http://arcgis.com), example page: [Location Analytics](http://business-es.maps.arcgis.com).
