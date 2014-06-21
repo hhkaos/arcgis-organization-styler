@@ -5,3 +5,14 @@
 	-webkit-border-radius: 10px;
 	overflow: hidden;
 }
+
+/* This sets the map to full background */
+#livemap{
+	margin-top: 20px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 30px;
+	height: 100%;
+}

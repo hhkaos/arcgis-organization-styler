@@ -1,4 +1,5 @@
 /* This removes the footer */
-div.footer{
+div.footer,
+#bottomContent{
 	display:none;
 }
