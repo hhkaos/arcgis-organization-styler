@@ -16,7 +16,16 @@ It allows you to add a live editor while you are in a Organization homepage.
 
 # Video tutorial
 
-_TODO: pending video_
+<object width="640" height="390">
+  <param name="movie"
+         value="https://www.youtube.com/v/ImSFKc4PUHM?version=3&autoplay=1"></param>
+  <param name="allowScriptAccess" value="always"></param>
+  <embed src="https://www.youtube.com/v/ImSFKc4PUHM?version=3&autoplay=0"
+         type="application/x-shockwave-flash"
+         allowscriptaccess="always"
+         width="560" height="315"></embed>
+</object>
+
 
 
 # Contributions
