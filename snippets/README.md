@@ -58,7 +58,22 @@ In order to ensure that the snippets will be always available we ask you to host
 
 ## How to develop in local
 
-_TODO_: Link to Gooogle Chrome guide (how to develop extensions), which URLs  must be changed in order to make it work in local, server external files using alocal server, etc.
+1. Download this repository
+2. [Enable the developer mode in your Google Chrome and hoad the extension](https://developer.chrome.com/extensions/getstarted#unpacked)
+3. Start a web page server inside the root folder (recomended: [http-server](https://www.npmjs.org/package/http-server) for [node.js](http://nodejs.org/))
+4. Change on extension/myscript.js this line:
+	
+	```	
+		chrome.tabs.executeScript(null, {file: "content_script.js"});
+	```
+	For this one:
+	
+	```	
+		chrome.tabs.executeScript(null, {file: "content_script_local.js"});
+	```	
+5. Change on resources/scripts.js the variable debug=true (line 1)
+
+This must be all.
 
 # That's it! You are ready to go ^_^
 If you have any suggestion, question, etc. you can just open an [Issue here inside](https://github.com/hhkaos/arcgis-organization-styler/issues). Thanks!	
