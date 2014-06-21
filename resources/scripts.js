@@ -1,5 +1,12 @@
+var debug = false;
+
+var proxy = "http://www.corsproxy.com/";
+var github = proxy + "hhkaos.github.io/arcgis-organization-styler/";
+var local = "http://localhost:9090/";
+
+var host =  debug? local : github;
+
 $(document).ready(function(){
-	var proxy = "http://www.corsproxy.com/";
 	var snippets = [];
 	//Apply the current styples
 	$("#styler").submit(function(e){
@@ -12,10 +19,14 @@ $(document).ready(function(){
 		$("#custom-html").html($("#html-content").val());
 		
 	});
-
+	$.ajaxSetup ({
+    	// Disable caching of AJAX responses
+    	cache: false
+	});
+	//debugger;
 	//Loads all the available snippets
 	$.ajax({
-		url: proxy + "hhkaos.github.io/arcgis-organization-styler/snippets/snippets.json",
+		url: host + "snippets/snippets.json",
 		dataType: "json",
 		success: function(data){
 			snippets = data.snippets;
@@ -34,7 +45,7 @@ $(document).ready(function(){
 		if(obj.hasOwnProperty("css")){
 			//Get the CSS
 			$.ajax({
-				url: proxy + obj.css,
+				url: host + obj.css,
 				//dataType: "json",
 				success: function(data){
 					
@@ -46,7 +57,7 @@ $(document).ready(function(){
 		if(obj.hasOwnProperty("html")){
 			//Get the HTML
 			$.ajax({
-				url: proxy + obj.html,
+				url: host + obj.html,
 				//dataType: "json",
 				success: function(data){
 					

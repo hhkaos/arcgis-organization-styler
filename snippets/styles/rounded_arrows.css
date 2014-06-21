@@ -1,0 +1,7 @@
+/* Rounded arrows style */
+.prevButton{
+	background: url('http://hhkaos.github.io/arcgis-organization-styler/resources/buttons.png');
+}
+.nextButton{
+	background: url('http://hhkaos.github.io/arcgis-organization-styler/resources/buttons_180.png');
+}
