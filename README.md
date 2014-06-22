@@ -15,11 +15,9 @@ It allows you to add a live editor while you are in a Organization homepage.
 * An editor that allows you to write your own HTML and CSS code.
 
 # Video tutorial
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ImSFKc4PUHM
+<p style="text-align:center"><a href="http://www.youtube.com/watch?feature=player_embedded&v=ImSFKc4PUHM
 " target="_blank"><img src="http://img.youtube.com/vi/ImSFKc4PUHM/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
 
 
 # Contributions
