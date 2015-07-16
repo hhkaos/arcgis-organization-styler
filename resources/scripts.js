@@ -1,7 +1,7 @@
 var debug = false;
 
-var proxy = "http://www.corsproxy.com/";
-var github = proxy + "hhkaos.github.io/arcgis-organization-styler/";
+var proxy = "http://www.cors.io/?u=";
+var github = proxy + "http://hhkaos.github.io/arcgis-organization-styler/";
 var local = "http://localhost:9090/";
 
 var host =  debug? local : github;

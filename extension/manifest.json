@@ -3,7 +3,7 @@
 
   "name": "ArcGIS Organization Styler",
   "description": "This extension helps you to style your own ArcGIS organizarion.",
-  "version": "1.4",
+  "version": "1.5.1",
 
     "content_scripts": [
     {
